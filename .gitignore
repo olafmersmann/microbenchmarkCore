@@ -5,8 +5,15 @@
 # Example code in package build process
 *-Ex.R
 
+# Check directories
+check-*
+
 # RStudio files
 .Rproj.user/
+
+# Object files
+src/*.o
+src/*.so
 
 # produced vignettes
 vignettes/*.html
