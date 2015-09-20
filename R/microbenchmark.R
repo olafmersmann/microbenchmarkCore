@@ -21,12 +21,12 @@
 #'
 #' The \code{control} list can contain the following entries:
 #' \describe{
-#' \item{order}{the order in which the expressions are evaluated.
+#' \item{\code{order}}{the order in which the expressions are evaluated.
 #'   \dQuote{random} (the default) randomizes the execution order,
 #'   \dQuote{inorder} executes each expression in order and
 #'   \dQuote{block} executes all repetitions of each expression
 #'     as one block.}
-#' \item{warmup}{the number of warm-up iterations performed before
+#' \item{\code{warmup}}{the number of warm-up iterations performed before
 #'   the actual benchmark. These are used to estimate the timing
 #'   overhead as well as spinning up the processor from any sleep
 #'   or idle states it might be in. The default value is 2.}

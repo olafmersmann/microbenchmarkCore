@@ -12,4 +12,4 @@ BugReports: https://github.com/olafmersmann/microbenchmarkCore/issues/
 License: BSD_2_clause + file LICENSE
 ByteCompile: yes
 LazyData: yes
-Version: 1.0-0.2
+Version: 1.0-0.4
